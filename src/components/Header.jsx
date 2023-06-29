@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
 
 function Header() {
-  return (
-    <StyledHeader>
-      <Wrapper>
-        <Navigation>
-          <Logo src={logo} />
-          <StyledLink to="/">Home</StyledLink>
-          <StyledLink to="/about">About</StyledLink>
-          <StyledLink to="/contact">Contact</StyledLink>
-          <EnquireNow to="mailto:janetvelasco@yahoo.com">Enquire Now!</EnquireNow>
-        </Navigation>
-      </Wrapper>
-    </StyledHeader>
-  );
+    return (
+        <StyledHeader>
+            <Wrapper>
+                <Navigation>
+                    <Logo src={logo} />
+                    <StyledLink to="/">Home</StyledLink>
+                    <StyledLink to="/about">About</StyledLink>
+                    <StyledLink to="/contact">Contact</StyledLink>
+                    <EnquireNow to="mailto:janetvelasco@yahoo.com">Enquire Now!</EnquireNow>
+                </Navigation>
+            </Wrapper>
+        </StyledHeader>
+    );
 }
 
 const StyledHeader = styled.div`
@@ -43,7 +43,7 @@ const StyledLink = styled(Link)`
 `;
 
 const Logo = styled.img`
-    height: 100px;
+    height: 75px;
     margin-right: auto;
 `;
 

@@ -2,28 +2,34 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import contactBackgroundImage from '../assets/images/contact_background_image.png';
+import Header from '../components/Header';
 
 function About() {
-  return (
-    <Container>
-      <LeftContainer>
-        <InformationContainer>
-          <Title>Education x Adventures</Title>
-          <Body>
-            Welcome to Haribon Edventures! We will take you to fascinating places where
-            you will learn deeply about the Filipino history, culture, and so much more!
-          </Body>
-          <EnquireNow to="mailto:janetvelasco@yahoo.com">Tara! Pasyal Taro!</EnquireNow>
-        </InformationContainer>
-      </LeftContainer>
-      <RightContainer />
-    </Container>
-  );
+    return (
+        <>
+            <Header />
+            <Container>
+                <LeftContainer>
+                    <InformationContainer>
+                        <Title>Education x Adventures</Title>
+                        <Body>
+                            Welcome to Haribon Edventures! We will
+                            take you to fascinating places where
+                            you will learn deeply about the Filipino
+                            history, culture, and so much more!
+                        </Body>
+                        <EnquireNow to="mailto:janetvelasco@yahoo.com">Tara! Pasyal Taro!</EnquireNow>
+                    </InformationContainer>
+                </LeftContainer>
+                <RightContainer />
+            </Container>
+        </>
+    );
 }
 
 const Container = styled.div`
     display: flex;
-    min-height: 100vh;
+    height: calc(100vh - 115px);
 
     @media (max-width: 700px) {
         flex-direction: column;

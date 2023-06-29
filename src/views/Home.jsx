@@ -2,23 +2,27 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import homeBackgroundImage from '../assets/images/home_background_image.png';
+import Header from '../components/Header';
 
 function Home() {
-  return (
-    <BackgroundImageContainer>
-      <StripeAndButtonContainer>
-        <Stripe>Education x Adventures</Stripe>
-        <Button to="/about">Tara! Pasyal Tayo!</Button>
-      </StripeAndButtonContainer>
-    </BackgroundImageContainer>
-  );
+    return (
+        <>
+            <Header />
+            <BackgroundImageContainer>
+                <StripeAndButtonContainer>
+                    <Stripe>Education x Adventures</Stripe>
+                    <Button to="/about">Tara! Pasyal Tayo!</Button>
+                </StripeAndButtonContainer>
+            </BackgroundImageContainer>
+        </>
+    );
 }
 
 const BackgroundImageContainer = styled.div`
     background: url(${homeBackgroundImage}) no-repeat bottom center; 
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 140px);
+    height: calc(100vh - 115px);
 `;
 
 const StripeAndButtonContainer = styled.div`
