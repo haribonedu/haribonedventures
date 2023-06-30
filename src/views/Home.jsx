@@ -30,6 +30,7 @@ const StripeAndButtonContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 100%;
     height: 100%;
 `;
@@ -53,6 +54,7 @@ const Button = styled(Link)`
     border: 0;
     color: #ffffff;
     font-size: 40px;
+    border-radius: 4px;
 `;
 
 export default Home;
