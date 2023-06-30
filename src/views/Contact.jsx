@@ -11,7 +11,7 @@ function Contact() {
             <Container>
                 <LeftContainer>
                     <InformationContainer>
-                        <Title>Education x Adventures</Title>
+                        <Title>Contact</Title>
                         <Body>
                             Blk 19 Lot 19 Lawaan Street Amparo Subdivision
                             Bgy 179 Caloocan City ; Contact Number - 09517013051

@@ -11,7 +11,7 @@ function About() {
             <Container>
                 <LeftContainer>
                     <InformationContainer>
-                        <Title>Education x Adventures</Title>
+                        <Title>About Us</Title>
                         <Body>
                             Welcome to Haribon Edventures! We will
                             take you to fascinating places where

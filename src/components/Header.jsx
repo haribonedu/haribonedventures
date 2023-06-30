@@ -12,6 +12,7 @@ function Header() {
                     <StyledLink to="/">Test</StyledLink>
                     <StyledLink to="/about">About</StyledLink>
                     <StyledLink to="/contact">Contact</StyledLink>
+                    <StyledLink to="https://www.facebook.com/haribonedventures">Facebook</StyledLink>
                     <EnquireNow to="mailto:jv128.haribonedventures@gmail.com">Enquire Now!</EnquireNow>
                 </Navigation>
             </Wrapper>
@@ -37,7 +38,7 @@ const Navigation = styled.div`
     padding: 20px;
     min-height: 115px;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 750px) {
         flex-direction: column;
     }
 `;
@@ -47,7 +48,7 @@ const StyledLink = styled(Link)`
     color: #5d6366;
     padding: 0px 20px;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 750px) {
         margin-bottom: 20px;
     }
 `;
@@ -56,7 +57,7 @@ const Logo = styled.img`
     height: 75px;
     margin-right: auto;
 
-    @media screen and (max-width: 920px) {
+    @media screen and (max-width: 1100px) {
         display: none;
     }
 `;
