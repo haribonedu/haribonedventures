@@ -90,6 +90,10 @@ const RightContainer = styled.div`
     flex: 1;
     background: url(${contactBackgroundImage}) no-repeat center; 
     background-size: cover;
+
+    @media (max-width: 700px) {
+        min-height: 250px;
+    };
 `;
 
 export default Contact;

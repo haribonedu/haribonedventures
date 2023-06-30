@@ -13,7 +13,7 @@ function About() {
                     <InformationContainer>
                         <Title>About Us</Title>
                         <Body>
-                            Welcome to Haribon Edventures! We will
+                            Welcome to Haribon EdVentures! We will
                             take you to fascinating places where
                             you will learn deeply about the Filipino
                             history, culture, and so much more!
@@ -92,6 +92,10 @@ const RightContainer = styled.div`
     flex: 1;
     background: url(${aboutBackgroundImage}) no-repeat center; 
     background-size: cover;
+
+    @media (max-width: 700px) {
+        min-height: 250px;
+    };
 `;
 
 export default About;
