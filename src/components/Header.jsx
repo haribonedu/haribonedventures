@@ -70,5 +70,4 @@ const EnquireNow = styled(Link)`
     margin-left: 20px;
 `;
 
-
 export default Header;
