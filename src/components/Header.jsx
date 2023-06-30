@@ -9,7 +9,7 @@ function Header() {
             <Wrapper>
                 <Navigation>
                     <Logo src={logo} />
-                    <StyledLink to="/">Test</StyledLink>
+                    <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/about">About</StyledLink>
                     <StyledLink to="/contact">Contact</StyledLink>
                     <StyledLink to="https://www.facebook.com/haribonedventures">Facebook</StyledLink>
