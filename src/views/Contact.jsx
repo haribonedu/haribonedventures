@@ -30,7 +30,7 @@ const Container = styled.div`
     min-height: calc(100vh - 115px);
 
     @media (max-width: 700px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 `;
 
