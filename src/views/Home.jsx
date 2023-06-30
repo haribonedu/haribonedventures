@@ -55,6 +55,7 @@ const Button = styled(Link)`
     color: #ffffff;
     font-size: 40px;
     border-radius: 4px;
+    margin: 0 20px;
 `;
 
 export default Home;
