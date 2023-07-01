@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import contactBackgroundImage from '../assets/images/contact_background_image.jpg';
+import contactBackgroundImage from '../assets/images/contact_background_image.webp';
 import Header from '../components/Header';
 
 function Contact() {
